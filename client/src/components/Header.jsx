@@ -16,11 +16,7 @@ export default function Header() {
         Bytech
     </span>
    
-    <TextInput
-    type='text'
-    placeholder='Search'
-    rightIcon={AiOutlineSearch}
-    className='hidden lg:inline'
+    <TextInput type='text' laceholder='Search' rightIcon={AiOutlineSearch} className='hidden lg:inline'
    
     />
     <Button className='w-16 h-16 lg:hidden text-white' color="white">
@@ -31,7 +27,7 @@ export default function Header() {
             <FaMoon />
         </span>
         <Link to="/signin">
-            <Button className='bg-linear-to-br from-violet-800 to-blue-700'  >Sign In</Button>
+            <Button  className='bg-linear-to-br from-violet-800 to-blue-500'  >Sign In</Button>
         </Link>
         <NavbarToggle/>
 

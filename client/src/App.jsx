@@ -7,6 +7,7 @@ import Dashboard from './pages/Dashboard.jsx'
 import Projects from './pages/Projects.jsx'
 import Signup from './pages/Signup.jsx'
 import Header from './components/Header.jsx'
+import Signin from './pages/Signin.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +21,7 @@ function App() {
     <Route path='/dashboard' element={<Dashboard/>} />
     <Route path='/projects' element={<Projects/>} />
     <Route path='/signup' element={<Signup/>} />
+    <Route path='/signin' element={<Signin/>} />
       
 
    </Routes>
