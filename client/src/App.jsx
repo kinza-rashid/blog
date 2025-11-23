@@ -8,7 +8,7 @@ import Projects from './pages/Projects.jsx'
 import Signup from './pages/Signup.jsx'
 import Header from './components/Header.jsx'
 import Signin from './pages/Signin.jsx'
-
+import Footer from './components/Footer.jsx'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -25,7 +25,7 @@ function App() {
       
 
    </Routes>
-   
+   <Footer />
    </BrowserRouter>
   )
 }
